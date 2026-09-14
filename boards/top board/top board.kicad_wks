@@ -1,0 +1,266 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "10.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 91.989 47.0022)
+		(end 1.989 2.0022)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date:"
+		(name "")
+		(pos 45 24.0002)
+		(font bold)
+	)
+	(line
+		(name "")
+		(start 92 18.0002)
+		(end 1.989 18.0022)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 90 4.0002)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 91.989 22.0022)
+		(end 1.989 22.0022)
+	)
+	(tbtext "Rev:"
+		(name "")
+		(pos 90 24.0002)
+		(font bold)
+	)
+	(tbtext "Size:"
+		(name "")
+		(pos 90 7.9)
+		(font bold)
+		(comment "Paper format name")
+	)
+	(tbtext "${#} / ${##}"
+		(name "")
+		(pos 37 8.0002)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 92 26.0002)
+		(end 1.989 26.0022)
+	)
+	(line
+		(name "")
+		(start 92 31.0002)
+		(end 1.989 31.0022)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 60 45.0002)
+		(font bold)
+		(comment "Společnost")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 60 42.0002)
+		(comment "Ulice a č. p.")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 60 39.0002)
+		(comment "Město")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 60 36.0002)
+		(comment "PSČ")
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 60 33.0002)
+		(comment "Stát")
+	)
+	(line
+		(name "")
+		(start 61.989 31.0022)
+		(end 61.989 47.0022)
+	)
+	(tbtext "Issued by:"
+		(name "")
+		(pos 24.5 20.0022)
+		(font bold)
+		(justify center)
+	)
+	(tbtext "SCH:"
+		(name "")
+		(pos 90 16.002)
+		(font bold)
+	)
+	(tbtext "PCB:"
+		(name "")
+		(pos 89.989 12.002)
+		(font bold)
+	)
+	(line
+		(name "")
+		(start 82.489 22.0022)
+		(end 82.489 10.0022)
+	)
+	(line
+		(name "")
+		(start 91.989 10.0022)
+		(end 1.989 10.0022)
+	)
+	(tbtext "${COMMENT7}"
+		(name "")
+		(pos 80.489 12.0022)
+	)
+	(tbtext "${COMMENT8}"
+		(name "")
+		(pos 44.989 12.0022)
+	)
+	(tbtext "Product:"
+		(name "")
+		(pos 89.989 28.5022)
+		(font
+			(size 2 2) bold)
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 75.489 28.5022)
+		(font
+			(size 2 2)
+		)
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 82.489 24.0022)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 36.989 24.0022)
+	)
+	(tbtext "${COMMENT5}"
+		(name "")
+		(pos 80.489 16.0022)
+	)
+	(tbtext "${COMMENT6}"
+		(name "")
+		(pos 44.989 16.0022)
+	)
+	(line
+		(name "")
+		(start 91.989 6.0022)
+		(end 1.989 6.0022)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 82.489 8.0022)
+		(comment "Paper format name")
+	)
+	(tbtext "Page:"
+		(name "")
+		(pos 44.989 8.0022)
+		(font bold)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 46.989 26.0022)
+		(end 46.989 6.0022)
+	)
+	(line
+		(name "")
+		(start 91.989 14.0022)
+		(end 1.978 14.0042)
+	)
+	(tbtext "Document name:"
+		(name "")
+		(pos 64.989 20.0022)
+		(font bold)
+		(justify center)
+	)
+)

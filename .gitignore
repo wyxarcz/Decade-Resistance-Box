@@ -1,0 +1,9 @@
+/boards/bottom board/bottom board-backups
+boards/bottom board/bottom board.bak
+boards/bottom board/bottom board.kicad_prl
+/boards/top board/top board-backups
+boards/top board/top board.bak
+boards/top board/top board.kicad_prl
+*.lck
+*.csv
+*.db

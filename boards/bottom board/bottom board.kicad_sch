@@ -1,0 +1,8525 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4b8883dd-5d70-41f7-ab17-c8aa67801416")
+	(paper "A4")
+	(title_block
+		(title "Decade resistance box - Bottom part")
+		(date "2024-04-11")
+		(rev "001")
+		(comment 5 "SCH-DRB-BOT-001")
+		(comment 6 "WyxarCZ")
+		(comment 7 "PCB-DRB-BOT-001")
+		(comment 8 "WyxarCZ")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x12"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x12"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x12_1_1"
+				(rectangle
+					(start -1.27 13.97)
+					(end 1.27 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 110.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d0b6b5-ae7f-479a-a656-dcea56d14424")
+	)
+	(junction
+		(at 125.73 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a56368-c54d-4d70-a0d6-891a3a2156b0")
+	)
+	(junction
+		(at 125.73 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10450bc6-b8d8-41fe-a860-8ccdd5ba68b1")
+	)
+	(junction
+		(at 110.49 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f77e8f7-f70d-4d32-a764-53bfcf5f63da")
+	)
+	(junction
+		(at 110.49 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37815c36-b421-4cde-8cda-010f0900bbfb")
+	)
+	(junction
+		(at 130.81 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46bd2256-7cf3-4b4b-82c8-52c8d61c45f3")
+	)
+	(junction
+		(at 125.73 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6557485d-0b4b-4953-b81a-215329c5018d")
+	)
+	(junction
+		(at 125.73 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fe601e-0a24-4b1d-802c-2d4f8d19fac4")
+	)
+	(junction
+		(at 130.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f93bc7-452c-48d8-abd5-bd6927ee64cf")
+	)
+	(junction
+		(at 125.73 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f6d580e-bbe2-4ead-be4f-689ff3e8595e")
+	)
+	(junction
+		(at 125.73 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91fc0636-b545-401e-aab0-f9bbd45a953d")
+	)
+	(junction
+		(at 110.49 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b539daa-a6ab-4b79-a462-5791d2203608")
+	)
+	(junction
+		(at 130.81 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bba5ad2-8dea-4179-aee5-aa06c8cf2b8b")
+	)
+	(junction
+		(at 130.81 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8787e0-c091-4ab3-8c00-c2e2ac710417")
+	)
+	(junction
+		(at 110.49 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3256518-79d3-467a-acea-1dde9b80707c")
+	)
+	(junction
+		(at 110.49 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaf5a1c4-6021-4859-97e8-8bd2b1f6a1d8")
+	)
+	(junction
+		(at 110.49 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a24a29-9ee7-4882-9ef9-f0befd970003")
+	)
+	(junction
+		(at 130.81 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99e2002-016a-4c89-920d-1adae8e7260c")
+	)
+	(junction
+		(at 125.73 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd5d2e9-51e0-48c8-84b6-2d8cf1afbe22")
+	)
+	(junction
+		(at 130.81 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f9a107-bb97-42ef-a749-dcee2ec75519")
+	)
+	(junction
+		(at 46.99 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc738938-ac40-4af7-8b0d-60eacd4c0ff4")
+	)
+	(junction
+		(at 130.81 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb51922-d54e-4163-923e-3d4e0e75b9db")
+	)
+	(junction
+		(at 110.49 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25291cc-adb6-4e18-99b2-959d3aefbedc")
+	)
+	(junction
+		(at 125.73 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e25b6b5c-d377-4f7c-8756-95e0c9aee6d6")
+	)
+	(junction
+		(at 130.81 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c3529f-26ff-4e16-b1d8-0d267a4d12c2")
+	)
+	(junction
+		(at 110.49 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee689444-4d04-4ddf-981f-427755561b6b")
+	)
+	(junction
+		(at 125.73 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2d16c6c-1bd1-4213-94d4-3aee3f0a31eb")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0285baeb-7bc7-462c-bfa7-3552762e55df")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 171.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0551ceaa-a56c-4324-8a9e-b93851bee4ca")
+	)
+	(wire
+		(pts
+			(xy 62.23 184.15) (xy 69.85 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0707ed0e-ce53-402e-b132-9528c9c75fab")
+	)
+	(wire
+		(pts
+			(xy 77.47 167.64) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07869425-cfb3-4df3-8ae2-53e4e36d0bce")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d497d9-1c37-45bb-91c9-cf1be017cae9")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0362c0-917e-42f7-a3cd-a9aa8c4a67a7")
+	)
+	(wire
+		(pts
+			(xy 146.05 134.62) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8cd04f-226f-4004-9c84-833ca83b8cd8")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6d4845-ab35-4425-aca5-a6ab38d6f409")
+	)
+	(wire
+		(pts
+			(xy 46.99 124.46) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efb33b3-723d-44e7-a26b-e2a4d9cc7eef")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9786d5-71e3-4cbc-ab3b-44e101995e37")
+	)
+	(wire
+		(pts
+			(xy 125.73 184.15) (xy 153.67 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1199a15b-abbd-471c-9669-5cace53a4796")
+	)
+	(wire
+		(pts
+			(xy 107.95 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f988d7-0e47-4464-b1e1-b6e99fe423e4")
+	)
+	(wire
+		(pts
+			(xy 143.51 54.61) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127b20ae-4eb8-4b4d-8a60-bd3c1c40dc6d")
+	)
+	(wire
+		(pts
+			(xy 110.49 187.96) (xy 110.49 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c3a50c-1c63-4ba6-b65b-3ea4e3bcce4b")
+	)
+	(wire
+		(pts
+			(xy 62.23 134.62) (xy 69.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16867b86-3804-4a98-8e50-887ee700c21a")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1bae49-5ec5-4b91-9a07-f6e01f210400")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 46.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3baa59-d08d-4598-b856-cac86bcb6b49")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 125.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f59646a-6a30-4796-b90c-be5d087a1989")
+	)
+	(wire
+		(pts
+			(xy 46.99 134.62) (xy 54.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20be5a97-cf39-4209-b305-a11bc2e8536f")
+	)
+	(wire
+		(pts
+			(xy 130.81 52.07) (xy 133.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221dd864-4260-4a0f-ae33-0f316d2af495")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226ac672-c6aa-44b4-87a2-f7ba5a2fc062")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23660785-f15b-4623-9eda-48f7ef47e809")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 171.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238f42f4-afa4-410c-a8bc-00b1f0a0cae3")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2529c1ba-4e6a-4471-b234-9739894d8f61")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262bddbd-00e5-45a6-857c-079e4166c40b")
+	)
+	(wire
+		(pts
+			(xy 125.73 121.92) (xy 125.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d6244c-15b5-46d4-a98f-61025afe24b8")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 135.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c9d4e7-b06a-435b-a881-2b8d1369ebb7")
+	)
+	(wire
+		(pts
+			(xy 130.81 157.48) (xy 130.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29428bb7-6c54-4ac2-8fca-41319a8dd2c9")
+	)
+	(wire
+		(pts
+			(xy 46.99 124.46) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fce103-575e-4c13-8b0f-c76716c1089d")
+	)
+	(wire
+		(pts
+			(xy 77.47 68.58) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b47943a-e90a-492d-93b4-d6a96e545129")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 100.33 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba54e62-619c-4064-a3ab-bb9ba736c645")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc7e609-2f01-4bef-8f57-73d8063d2048")
+	)
+	(wire
+		(pts
+			(xy 110.49 171.45) (xy 110.49 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da7547f-eadc-4dd5-8eff-7e903a970fa3")
+	)
+	(wire
+		(pts
+			(xy 110.49 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdef723-7a56-4546-be26-186de6ea8082")
+	)
+	(wire
+		(pts
+			(xy 133.35 52.07) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318c5597-a68b-42b7-9d4c-9fc322f05d35")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321bed72-f9e9-47a0-9524-4bd743d8020b")
+	)
+	(wire
+		(pts
+			(xy 104.14 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323ff9d1-d462-4f4b-96fb-370851a5b174")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bbcc3c-83a6-47e4-b957-442822b9d826")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3468e67b-d7be-46a8-b5c2-a5bfc255581f")
+	)
+	(wire
+		(pts
+			(xy 125.73 184.15) (xy 123.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf91bd-4cfd-4d19-b9cb-abe4d82eb009")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ca8b50-d044-4e17-b90b-d9ea8275e2c7")
+	)
+	(wire
+		(pts
+			(xy 77.47 134.62) (xy 85.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39573343-0f6f-428d-a1d8-44f2774e29a5")
+	)
+	(wire
+		(pts
+			(xy 130.81 151.13) (xy 148.59 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f8dfcf-6bf7-48be-9b0e-0ff435b314b9")
+	)
+	(wire
+		(pts
+			(xy 125.73 151.13) (xy 130.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3a68e8-9acb-4144-ab81-afb3fde98586")
+	)
+	(wire
+		(pts
+			(xy 62.23 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd893a9-ba0a-4126-96e7-2871101e6b4e")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7b884b-fa44-4363-9415-13f988609b0e")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e53ddc-6b49-4aa9-bf52-c8bb367f242f")
+	)
+	(wire
+		(pts
+			(xy 46.99 151.13) (xy 54.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fccfa6-c3de-4e30-aece-c693ad8215d7")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4187c72a-e057-4484-ae12-b2de97d8f730")
+	)
+	(wire
+		(pts
+			(xy 110.49 154.94) (xy 110.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42883e71-58a5-4e1d-ba84-a94fa3785721")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a27dc9-1223-4c42-a2da-1f72c6999e80")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f2422b-1b6d-4500-bdd2-99a51976f016")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464b2684-3384-4c5c-8c94-b610f70096bc")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494d9972-7782-4fd9-9512-8f4224aa42a9")
+	)
+	(wire
+		(pts
+			(xy 46.99 157.48) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49907779-6a43-4c95-9b03-344ded4c70e9")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3a0acb-6534-4cef-80fa-a44ddcff112c")
+	)
+	(wire
+		(pts
+			(xy 125.73 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c64298e-48ed-4d75-90e8-405ab7f2b826")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e07a929-f570-452f-9905-8b4b5a4ecaf2")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0cdd39-0d45-43a5-8cb0-07963958fc23")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6542e2-9361-42e6-a0ab-2c302e8bc2cd")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dbf3c6-487e-4918-aefa-00463914577b")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 46.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55267652-aa05-4019-bb72-7b686b9a5955")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d612c3-fc31-4284-8296-0b4c39cf3b63")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5612167e-84fd-428a-84c0-3eaea60f4918")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d6c2b1-63fc-4cb3-ac7e-bd2d8e6beee4")
+	)
+	(wire
+		(pts
+			(xy 46.99 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573afe5c-9cdd-4c26-883b-0272b6b7c105")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578a39a1-bfe6-42fc-a0dd-ff2fd80b14d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 157.48) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583fea46-1786-47f1-bc4e-17e574ac0b21")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a12d456-c56b-4f91-a555-94da0d8e8aba")
+	)
+	(wire
+		(pts
+			(xy 77.47 118.11) (xy 85.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c354bf1-1670-4877-913a-e4ada5f2d1d9")
+	)
+	(wire
+		(pts
+			(xy 110.49 167.64) (xy 115.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624fd7f7-75c4-4591-b522-1e10ed3fc8f5")
+	)
+	(wire
+		(pts
+			(xy 92.71 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f41fc4-17f4-4163-95f0-74da689ddfb0")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6404e077-3773-4dfb-84a6-016f31c8e575")
+	)
+	(wire
+		(pts
+			(xy 140.97 52.07) (xy 171.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646264a5-1234-4541-a11d-9b19d73cdff0")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659104ef-8473-4db9-84ea-0be84c851de9")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68faf395-3161-4497-b1b6-2dd5b7a5bc11")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 54.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1abec5-20d8-4f9c-ba19-b1a8e3481be6")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4d3d15-8709-4a96-8848-62ac7e68e390")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef3c279-943e-4496-a97f-1b93b17aca63")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bc7051-91b5-4619-98df-a563ba79c51a")
+	)
+	(wire
+		(pts
+			(xy 46.99 140.97) (xy 130.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d16e1e-1641-4471-a797-6f24443bfe82")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7224752f-378c-49f6-896f-cbec00d194e8")
+	)
+	(wire
+		(pts
+			(xy 46.99 101.6) (xy 54.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765636b2-c45c-4c08-85e2-53235ce8834f")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783fad33-43a4-4d26-be00-f82875c15368")
+	)
+	(wire
+		(pts
+			(xy 62.23 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78da5d1d-c669-4574-8c13-2377062d607f")
+	)
+	(wire
+		(pts
+			(xy 46.99 173.99) (xy 46.99 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fa8999-0764-45a2-9b43-79e668f28fe1")
+	)
+	(wire
+		(pts
+			(xy 104.14 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e051f4c-b0de-421a-9387-a0a63c0ae55b")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdcbc67-0783-432a-9f14-b4896d7f7e8d")
+	)
+	(wire
+		(pts
+			(xy 125.73 171.45) (xy 125.73 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8022e4b6-48ee-4b9b-9f49-02ab6d27295b")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8343299f-e260-44c4-8bb4-1782200d1d22")
+	)
+	(wire
+		(pts
+			(xy 133.35 44.45) (xy 171.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858899a7-bb24-4cc8-9de1-db3d221967da")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ab4868-3bac-4ef7-a693-d87240f99802")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8648dbce-8c27-4552-9a79-19f768717ac0")
+	)
+	(wire
+		(pts
+			(xy 107.95 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d0b7cd-66ac-4664-9bd5-74b91b92a2dc")
+	)
+	(wire
+		(pts
+			(xy 148.59 151.13) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccd6df2-2218-4bf3-96e9-61ab5b22fc9d")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 171.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce3c8a8-5450-4fd0-a273-53584aced72b")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 110.49 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90327b2c-c757-4572-87b2-cab89a5233fc")
+	)
+	(wire
+		(pts
+			(xy 62.23 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b35fc2-3451-4c11-8bb0-79a77879f391")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91900b4c-2b93-49c6-ab44-1f75e443d9bc")
+	)
+	(wire
+		(pts
+			(xy 119.38 187.96) (xy 125.73 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e64205-1718-47b5-9395-c7d61474328e")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f0e7bb-79dd-4ff0-8a78-2063f9f036e3")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cc8f9a-a3f6-4df0-a213-7ecd6447e420")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ffdc30-b775-42bc-8e6f-d9563184def8")
+	)
+	(wire
+		(pts
+			(xy 62.23 167.64) (xy 69.85 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979dfadb-8e9e-4fca-897f-b168713cadf9")
+	)
+	(wire
+		(pts
+			(xy 130.81 173.99) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6f3eb3-93a2-4929-b65d-19ec111759d7")
+	)
+	(wire
+		(pts
+			(xy 107.95 167.64) (xy 110.49 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d44a853-249a-4471-9f35-e437fbec5baa")
+	)
+	(wire
+		(pts
+			(xy 77.47 184.15) (xy 85.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00186f6-142f-40aa-905b-05dfe66e39c4")
+	)
+	(wire
+		(pts
+			(xy 143.51 118.11) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a940e7-93f3-4bad-b81f-2cfd8ccfb7fe")
+	)
+	(wire
+		(pts
+			(xy 46.99 107.95) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d3b420-3697-4a10-850a-aef970e830ab")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a441bc55-d5ba-436c-85ff-3aeaa7174eaf")
+	)
+	(wire
+		(pts
+			(xy 125.73 88.9) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cb2feb-913b-43a2-a58c-427584b73b96")
+	)
+	(wire
+		(pts
+			(xy 46.99 140.97) (xy 46.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9502bbd-8e4f-47a5-be4f-7c8d8d02bf0c")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98246ec-4271-4c9b-b88b-003f0a7f3d7d")
+	)
+	(wire
+		(pts
+			(xy 110.49 138.43) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa17fa1-09fe-4c87-a3db-680a8e0f34cb")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae20fc3e-137c-4c89-ac33-83dc84e21e1c")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16ea75a-cf2d-4ab2-9f51-3b60908e0d3d")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f9d541-5ce5-4c5a-a544-e89edf56c879")
+	)
+	(wire
+		(pts
+			(xy 46.99 167.64) (xy 54.61 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b318cd01-c9e3-4273-b64c-6e9b42cdceed")
+	)
+	(wire
+		(pts
+			(xy 146.05 57.15) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3542245-79af-451e-a26d-e3a1caa115e3")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4655eee-49f8-4a5d-8337-5727b499822b")
+	)
+	(wire
+		(pts
+			(xy 92.71 184.15) (xy 100.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51e083f-6111-4a92-b4cd-3d631eda9d1f")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62b40c9-e025-4fe5-87f9-406fa4e9fa6a")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b663e551-10f9-4c3c-bae0-c6f136749649")
+	)
+	(wire
+		(pts
+			(xy 110.49 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7096f53-1248-4e10-b4d4-1784ac05ca54")
+	)
+	(wire
+		(pts
+			(xy 125.73 187.96) (xy 125.73 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79b97f6-3490-4e88-9d36-52a7d985a297")
+	)
+	(wire
+		(pts
+			(xy 130.81 134.62) (xy 146.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9479468-1b9d-4d5f-9032-ef4e6f413656")
+	)
+	(wire
+		(pts
+			(xy 107.95 151.13) (xy 110.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb025aa0-6452-491f-af7f-85d22da27be0")
+	)
+	(wire
+		(pts
+			(xy 119.38 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6afbba-e5aa-48ca-b600-b8b42379c5d4")
+	)
+	(wire
+		(pts
+			(xy 107.95 184.15) (xy 110.49 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be017d92-de03-4efc-9401-201245905555")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfde3819-8d44-4092-a83e-bcc302b0c4b9")
+	)
+	(wire
+		(pts
+			(xy 104.14 187.96) (xy 110.49 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c225c5fc-a2e1-4e95-b5b9-a3d60095aec0")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45cbef3-33db-4d4a-83be-94963b4d7d83")
+	)
+	(wire
+		(pts
+			(xy 125.73 154.94) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d2c59a-fd28-4b02-8029-021a6a503c3e")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8be4a51-3ae1-408a-b47a-eb97a85a16a6")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca45058f-4bb9-4d95-b62f-beaa5a3e7c0e")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad714d8-804c-4513-9257-29a88f562015")
+	)
+	(wire
+		(pts
+			(xy 107.95 52.07) (xy 110.49 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce765fc5-1614-4b35-a867-136bdc5f3e97")
+	)
+	(wire
+		(pts
+			(xy 119.38 171.45) (xy 125.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf53d7be-5690-4562-a8db-1163a458c991")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf960813-48fd-4fb9-aa6a-5fec4a2cd298")
+	)
+	(wire
+		(pts
+			(xy 125.73 134.62) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e44535-5c3c-4267-bce4-f01fde6db4a7")
+	)
+	(wire
+		(pts
+			(xy 125.73 151.13) (xy 123.19 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54da98f-ab80-4a6b-8598-67290065f110")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 85.09 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7eaa4fe-2aa7-4713-a85e-79d1cdc337f1")
+	)
+	(wire
+		(pts
+			(xy 130.81 167.64) (xy 151.13 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db24ecfd-e19a-4a55-8b61-b78ddafa407c")
+	)
+	(wire
+		(pts
+			(xy 125.73 138.43) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3b26c4-d567-44f1-8b21-c56e720a1e54")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbafa1c8-8016-445b-99db-5c6ef8cb4387")
+	)
+	(wire
+		(pts
+			(xy 46.99 184.15) (xy 54.61 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4654c8-dab8-4bb4-a63c-14306b33c618")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded8be3f-ef08-4373-9ee5-bbb0db10ce7c")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 46.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff26abb-34e0-4b84-9f7f-2bde9ca954c0")
+	)
+	(wire
+		(pts
+			(xy 110.49 184.15) (xy 115.57 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e413b258-083d-4cb9-9817-181b52401d25")
+	)
+	(wire
+		(pts
+			(xy 92.71 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b98e54-0424-4162-bb2c-7272731de0d4")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f2418a-284d-42ea-96f7-1f78703d9f2b")
+	)
+	(wire
+		(pts
+			(xy 153.67 184.15) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e1005c-41fe-4e70-988c-d596e5280da4")
+	)
+	(wire
+		(pts
+			(xy 151.13 167.64) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9378475-8709-4080-b09e-f2af6ef2d369")
+	)
+	(wire
+		(pts
+			(xy 92.71 167.64) (xy 100.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e957887e-efdd-4998-9400-497649b93ef7")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec77ef70-8ff0-4b8d-b018-df61ff28a3a2")
+	)
+	(wire
+		(pts
+			(xy 119.38 138.43) (xy 125.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbf8100-79c9-4732-b4f3-1f7d3aed2703")
+	)
+	(wire
+		(pts
+			(xy 46.99 173.99) (xy 130.81 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f069fc1e-5b3f-4993-b246-a8f2ec72d6d1")
+	)
+	(wire
+		(pts
+			(xy 104.14 154.94) (xy 110.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24c952c-dcf1-49d2-9f97-96111a0d4406")
+	)
+	(wire
+		(pts
+			(xy 119.38 154.94) (xy 125.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6a8268-b8a0-40a4-a61d-799e7bcef2ef")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae3ac2e-2cfd-48b7-9df9-e64f71d30bde")
+	)
+	(wire
+		(pts
+			(xy 125.73 167.64) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0daabe-08b0-4a9e-9fae-9fe360a67e70")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb303d71-d294-4ffc-9520-5df75b4b9320")
+	)
+	(wire
+		(pts
+			(xy 125.73 134.62) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbfb278-90db-467d-ba8e-64fddd0c5c36")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffce5512-5b81-473e-9131-f69cf285890b")
+	)
+	(label "GND"
+		(at 168.91 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e5f1587-b197-4aa9-b7d5-71097bdbf9bd")
+	)
+	(label "POS_9"
+		(at 168.91 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69a5c949-0fda-4bc7-a586-82df451fef88")
+	)
+	(label "POS_4"
+		(at 168.91 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ee8c01f-28d7-40eb-b9a9-1e7ee7214efb")
+	)
+	(label "POS_5"
+		(at 168.91 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb5b4958-4098-40c2-a37a-b32109aca9c5")
+	)
+	(label "POS_6"
+		(at 168.91 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d456979c-2f25-4223-b904-5608e408e0f7")
+	)
+	(label "POS_8"
+		(at 168.91 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2ed8ad2-0892-434a-8dc0-07818ee325c7")
+	)
+	(label "COM"
+		(at 168.91 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efc62fdc-be0f-4a4a-b977-376158067118")
+	)
+	(label "POS_1"
+		(at 168.91 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efc84632-2836-492a-8769-a949ab133982")
+	)
+	(label "POS_0"
+		(at 168.91 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f31500ef-a700-4e2c-9192-111d437609d5")
+	)
+	(label "POS_3"
+		(at 168.91 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f333abf0-d14a-4547-b106-944195a793da")
+	)
+	(label "POS_7"
+		(at 168.91 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f92030c5-4d5f-4d5b-abd0-dff9d3fde639")
+	)
+	(label "POS_2"
+		(at 168.91 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcf45de6-f5a6-4ac1-9658-607b1115ef79")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 171.45 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0078408c-3282-48b3-89cc-2b4f160430b7")
+		(property "Reference" "H3"
+			(at 171.45 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 173.99 81.2221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 171.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "864ffc4b-390b-4b8a-a866-5a22cb75417d")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "H3")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "H7")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b5fa15b-f225-486a-9eb0-43ec133c2596")
+		(property "Reference" "RV12"
+			(at 119.38 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f928ec2-f25f-472b-9743-1f46254ded1d")
+		)
+		(pin "2"
+			(uuid "f34a5ffa-e613-4810-a58b-2b7809aa17de")
+		)
+		(pin "3"
+			(uuid "eb78459f-cf54-4bcd-bbb7-f83f1ba87e7d")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV12")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV15")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dd7eaac-9355-408a-b94c-3ed05faf3a05")
+		(property "Reference" "R6"
+			(at 88.9 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c1bf19d-cbe8-4e07-b1c7-5a298ed1376e")
+		)
+		(pin "2"
+			(uuid "acda6722-e84a-4335-a0b5-985754a2c5cb")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "155ab67e-3e0d-4aa9-904e-446a526bdfca")
+		(property "Reference" "R8"
+			(at 73.66 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 86.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88b69744-fd9b-414b-a151-a01724cd3664")
+		)
+		(pin "2"
+			(uuid "cea2d39f-4338-49b7-9f2b-21809ce3598e")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24206f03-1f7a-4d1b-9a1d-044cc16ca647")
+		(property "Reference" "R21"
+			(at 88.9 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb0d2f21-0e6b-4ed9-ae9a-f942bc9633a1")
+		)
+		(pin "2"
+			(uuid "54146e06-fb55-432f-995e-bc2aca2def61")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 177.8 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2831a5f5-069e-485f-a1d2-c2a611ac5682")
+		(property "Reference" "H4"
+			(at 177.8 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 180.34 81.2221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb13ea36-787d-4371-96a1-286bdf86c840")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "H4")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "H8")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29904132-c4eb-4ab7-b836-c3c27e9cdeaa")
+		(property "Reference" "R5"
+			(at 73.66 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dec7b2d1-1e18-4969-a7b7-75bc424fad21")
+		)
+		(pin "2"
+			(uuid "96636e56-842b-4181-bb25-6d2a11f9f15a")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e1f24c9-1ab0-444c-9336-a765e10bcc6d")
+		(property "Reference" "R7"
+			(at 58.42 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 86.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9d03984-7f7a-47bf-971c-eafefcbf6fa6")
+		)
+		(pin "2"
+			(uuid "24c1a927-cdfa-488d-b7ca-16dfad297369")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 171.45 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fc05da6-0a8b-491f-8c9c-c4fb643a89cc")
+		(property "Reference" "#PWR04"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 171.45 87.5721 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa81cbab-a6ba-4d74-a582-8abb47d1b9fa")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36bdc822-bcf0-407c-964f-429e4a8a1185")
+		(property "Reference" "R25"
+			(at 58.42 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 185.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c0991ce-1df4-4b9a-bff4-8d7d1079f975")
+		)
+		(pin "2"
+			(uuid "ec6306db-c389-4ddf-8814-2352a52e077e")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3983bf56-6ca2-462b-a873-8605ecbb851b")
+		(property "Reference" "R2"
+			(at 73.66 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "027085a3-8e59-4415-9c4a-806b85a2a962")
+		)
+		(pin "2"
+			(uuid "bc1e112e-ff95-435a-9008-3540643e1e99")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a516027-7cc0-4c8d-b59b-4edabc67ab0f")
+		(property "Reference" "R14"
+			(at 73.66 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b039040a-4922-479a-914f-5ecb32470bd5")
+		)
+		(pin "2"
+			(uuid "4b6b7926-2f08-4e35-a37d-e923288d1d46")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dc68af7-ca1a-43f1-ab72-ebfa1296a5f3")
+		(property "Reference" "R1"
+			(at 58.42 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f98ccbc5-43b5-408c-b98e-aa8a50f2a6fe")
+		)
+		(pin "2"
+			(uuid "6980f52a-b5d1-416f-8717-f84fd5b940ca")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 52.07 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51439a6f-ef3a-414f-b227-693eae97a1ee")
+		(property "Reference" "RV1"
+			(at 104.14 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10b48842-fd43-40f9-b8bc-920566b7363d")
+		)
+		(pin "2"
+			(uuid "67eab880-b091-4707-9a83-a724bb95a18f")
+		)
+		(pin "3"
+			(uuid "c244fcd2-1180-4110-8f33-b62619519085")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57112d60-e0d2-4090-8ea8-11c3a62d4ce9")
+		(property "Reference" "R10"
+			(at 58.42 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bef91ff7-27b0-424f-9af9-52593c1341cb")
+		)
+		(pin "2"
+			(uuid "00e6f44b-dab3-4bf0-b9e0-4f75043ae583")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 184.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59461400-dc51-447e-9d57-00bd22592102")
+		(property "Reference" "RV18"
+			(at 119.38 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb3bb074-054b-4015-b9a4-c343a1fdd969")
+		)
+		(pin "2"
+			(uuid "add5b06f-ddf3-4fe1-9fec-de72fb52aaff")
+		)
+		(pin "3"
+			(uuid "32c2ae4e-6855-43b6-a98c-4d5b85712e6e")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV18")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV18")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5999744a-9cb7-4fa4-b86a-344b17645e14")
+		(property "Reference" "R16"
+			(at 58.42 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d6aa08e-8bd8-4cdc-a70a-5f00f39b9298")
+		)
+		(pin "2"
+			(uuid "a2527f20-9bc3-4ab1-9001-70f0a5f0bbee")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59d673c0-a722-4028-a08c-07cadbd28e93")
+		(property "Reference" "R27"
+			(at 88.9 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 185.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a4f15d-5096-47bc-923e-569332b6ef10")
+		)
+		(pin "2"
+			(uuid "d26c95ee-2eab-41af-b54b-85c61fe62385")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 68.58 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61115b3a-be02-462b-a4db-5aa821c853dc")
+		(property "Reference" "RV4"
+			(at 119.38 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf2fa4c-5f6d-4212-9c58-95410f35ae3e")
+		)
+		(pin "2"
+			(uuid "634bb7f5-5025-471c-a7fd-636e6293c916")
+		)
+		(pin "3"
+			(uuid "cfd585bf-6666-4297-9940-2ef7928aa9dd")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV11")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 85.09 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62b60dc5-c5cf-463d-a4fc-2b27ab3a01e4")
+		(property "Reference" "RV6"
+			(at 119.38 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77132f99-1d41-4e07-b45d-87c026d50a3b")
+		)
+		(pin "2"
+			(uuid "00cdab78-c269-437c-ac16-0ebdf38ae35c")
+		)
+		(pin "3"
+			(uuid "65d50904-bfed-4233-97be-ce033bc9d20f")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV12")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 151.13 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64b9c7fd-3958-4fbb-ba6a-1ca2007a05fb")
+		(property "Reference" "RV14"
+			(at 119.38 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "637a9e83-12f1-4bf2-925e-9c95eecfdbec")
+		)
+		(pin "2"
+			(uuid "c024b8f0-cb84-43e3-b848-877430ecb808")
+		)
+		(pin "3"
+			(uuid "c71d9382-4964-45fd-b6e0-d5b52482bee2")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV14")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV16")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 167.64 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "670b7e54-5a03-4c87-8c29-bafce0a7a0f6")
+		(property "Reference" "RV16"
+			(at 119.38 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81455625-3949-4f47-aa69-6d2229af7fc1")
+		)
+		(pin "2"
+			(uuid "d0a0bbbf-bd84-4b3d-9246-ab06fffe9d5e")
+		)
+		(pin "3"
+			(uuid "f0c0ec16-4e96-4863-89a4-620d1bef9a7e")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV16")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV17")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "686e7f68-e1ec-4cde-a00e-8ff0b813bae0")
+		(property "Reference" "RV11"
+			(at 104.14 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dcdfa8a-2d93-4593-9101-3cf3abbe179d")
+		)
+		(pin "2"
+			(uuid "9f7ebe1a-ff48-4a41-b55a-2befadd198b6")
+		)
+		(pin "3"
+			(uuid "c5eee130-62ed-429c-bc27-164e366a7757")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV11")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV6")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 151.13 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "713a20f6-6a03-4aa7-8bb6-d19b6deccb39")
+		(property "Reference" "RV13"
+			(at 104.14 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eccec673-f484-4d17-8948-6b6ec153bdd8")
+		)
+		(pin "2"
+			(uuid "41ac2aec-819d-4cd8-81df-1ff1bf1249b3")
+		)
+		(pin "3"
+			(uuid "d36f840b-231f-4380-af1b-cb2fbcc3154f")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV13")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV7")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7162df48-b1da-44ad-a735-b49734ed73bb")
+		(property "Reference" "R15"
+			(at 88.9 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab098e6b-23e8-4089-bc5d-373a960f15aa")
+		)
+		(pin "2"
+			(uuid "b294a743-2c98-4fbd-a275-9d3ab9241085")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740de124-3bfb-461c-a104-6ce5cd2a608c")
+		(property "Reference" "#PWR02"
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 158.75 87.5721 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6675b394-c9fb-4a49-852c-e88075e893ec")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 118.11 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a4c1be5-a1e8-4fe5-b8dd-dcd9014712cf")
+		(property "Reference" "RV10"
+			(at 119.38 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19140af2-db09-4702-8bab-5f458b609de7")
+		)
+		(pin "2"
+			(uuid "a99da686-fcc4-46ee-a3e0-57556ff15db1")
+		)
+		(pin "3"
+			(uuid "2eca4211-23a3-452b-b475-08c7e28840a8")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV14")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8070fcc1-60b7-44c4-8186-c11136785896")
+		(property "Reference" "H2"
+			(at 165.1 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 81.2221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca6ea342-158e-4926-9f92-cb3b516ac0ac")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "H2")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "H6")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 165.1 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "826d0925-37e4-47df-bd2e-8e8e4e9d9d35")
+		(property "Reference" "#PWR03"
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 165.1 87.5721 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ea82d48-0cf4-4c7b-b0a0-cec2f03961e5")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x12")
+		(at 176.53 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8923ab03-a21a-4710-933d-0e08b3f25011")
+		(property "Reference" "J1"
+			(at 176.53 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x12"
+			(at 176.53 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6a8fc90-0efd-42e7-9548-060ecfe5ec65")
+		)
+		(pin "10"
+			(uuid "b2b9c3dd-2443-481b-b12b-cc4fa10536d4")
+		)
+		(pin "11"
+			(uuid "68d341d3-ed8b-4a1a-8a4f-b88964be75b8")
+		)
+		(pin "12"
+			(uuid "91fc32d1-db43-4044-8b06-44d48472f3d3")
+		)
+		(pin "2"
+			(uuid "c03c3574-acc4-499e-a387-af72f4a69b8d")
+		)
+		(pin "3"
+			(uuid "5d29773e-b5c8-422d-b49b-5c4c2a3abf1e")
+		)
+		(pin "4"
+			(uuid "0091b985-a70d-4d19-b829-8a7ad8d6ca93")
+		)
+		(pin "5"
+			(uuid "41165c3d-c529-4938-be40-5105ef399ffc")
+		)
+		(pin "6"
+			(uuid "8b740abb-99b1-4f96-94df-1f1e2775a408")
+		)
+		(pin "7"
+			(uuid "9e8a89bc-0a60-40c5-9a0e-5ec7be62263e")
+		)
+		(pin "8"
+			(uuid "27c4f268-4d64-44a1-9a9f-e73f688eb70d")
+		)
+		(pin "9"
+			(uuid "e112a2b7-36ed-4d02-a511-996d1c0a1eac")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 68.58 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fb1df85-e7aa-43fc-9864-eed6e7b7e5ca")
+		(property "Reference" "RV3"
+			(at 104.14 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20129c30-b9fc-4cbe-84be-487f66753131")
+		)
+		(pin "2"
+			(uuid "a282832f-6ae3-40e1-9340-cc9590bd3df8")
+		)
+		(pin "3"
+			(uuid "63e2243b-5a15-4587-a6a9-589c78f122bb")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV2")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 101.6 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93569058-b0b9-44bb-9883-e50feaf39b34")
+		(property "Reference" "RV8"
+			(at 119.38 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59a35041-23a6-4b27-9777-c58e1be71eaa")
+		)
+		(pin "2"
+			(uuid "f293dbd7-1552-4255-91a5-02d7196fa056")
+		)
+		(pin "3"
+			(uuid "63446df5-9de4-4b43-bf31-823aa10a5593")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV13")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95b53a51-c288-415a-874c-68ef5c7507ae")
+		(property "Reference" "R3"
+			(at 88.9 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "240047af-8d8d-44e4-9ee8-4614b8de5743")
+		)
+		(pin "2"
+			(uuid "c9ddebd8-db47-4144-be7a-bede59626275")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 101.6 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98f92ba8-470c-488c-9b8f-7a3cfbe006e8")
+		(property "Reference" "RV7"
+			(at 104.14 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5db5320-a40a-430b-8fce-36b6f4db111a")
+		)
+		(pin "2"
+			(uuid "312bb84f-66e1-4692-9008-9350e875711b")
+		)
+		(pin "3"
+			(uuid "eb5f2dea-5469-4bf8-9443-5ab6840442a9")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV4")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c8a85e4-ab87-40ff-a6ea-bff196be9708")
+		(property "Reference" "R20"
+			(at 73.66 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7094785-5516-4fa9-9d2f-e0fd9d3a7416")
+		)
+		(pin "2"
+			(uuid "0be8891d-860c-4610-82a1-f2faf45397fa")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cc60d3a-1a2b-4c11-ba5c-2c113fd7ed5b")
+		(property "Reference" "R26"
+			(at 73.66 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 185.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53e027be-528a-4a47-ac4e-52d15a8442e8")
+		)
+		(pin "2"
+			(uuid "dc60edc0-3fdd-4998-8017-4826b98cc614")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 85.09 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1e53227-83b0-4b6d-bacf-95faf9b6143a")
+		(property "Reference" "RV5"
+			(at 104.14 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bd31cd7-fa0a-40b5-9708-df941b75c27e")
+		)
+		(pin "2"
+			(uuid "b428d423-74c6-4bb7-af14-c88bfda26e78")
+		)
+		(pin "3"
+			(uuid "837f8b6d-5378-437f-adf1-67b4a1bb3003")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV3")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8464a48-f91b-4840-b10e-61477e838805")
+		(property "Reference" "R13"
+			(at 58.42 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20eb773e-ada1-4dc2-904a-ac03cecfb051")
+		)
+		(pin "2"
+			(uuid "f6e2e86f-9c39-44cc-8ff0-1117c8309ac2")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1398ff7-1912-4ddc-9325-3569e932f738")
+		(property "Reference" "R11"
+			(at 73.66 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50a2f2fd-85e0-4b4a-838f-1cb1c11b5908")
+		)
+		(pin "2"
+			(uuid "95672ab0-8481-4f48-8c37-aad64c238fbb")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 177.8 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b720755c-c331-4e0f-9cca-b08d5d993dae")
+		(property "Reference" "#PWR05"
+			(at 177.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 177.8 87.5721 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3e78ddd-8985-43f5-96fc-f6a66e68ac53")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9e66aa2-05db-447d-92e3-4d4af5b16051")
+		(property "Reference" "R22"
+			(at 58.42 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0c6e07e-2083-4a80-baee-40a153a27107")
+		)
+		(pin "2"
+			(uuid "230d8923-3de9-464b-a71e-a85ca5256256")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 118.11 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf6a572c-c9a0-4174-9c2e-58309bb9be58")
+		(property "Reference" "RV9"
+			(at 104.14 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24352b45-c2ad-4b2f-8311-45996b776bbf")
+		)
+		(pin "2"
+			(uuid "e1ff49db-0c88-426c-9d2e-f74617688fe6")
+		)
+		(pin "3"
+			(uuid "5bf01e90-25be-4165-b2af-978915c26ca2")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV5")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4d3ebe7-8dc1-4ec4-9d04-a9b6fd2dc750")
+		(property "Reference" "R12"
+			(at 88.9 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36406f60-be28-4c19-a5a4-da0739399a4d")
+		)
+		(pin "2"
+			(uuid "189b30f6-39cc-4b76-9cfe-59944deb2acb")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddc06ddc-1804-4e75-8992-2e1f5b4ba435")
+		(property "Reference" "R23"
+			(at 73.66 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5efa81e8-42e3-46c7-a63d-fb633a730197")
+		)
+		(pin "2"
+			(uuid "5d9d5e61-8365-40b1-9023-6e6bf05d33d5")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0af2363-52d0-4c07-8c41-4f3c9e88a9aa")
+		(property "Reference" "R9"
+			(at 88.9 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 86.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e38c9c95-2554-499d-8aac-f121d6d20dd8")
+		)
+		(pin "2"
+			(uuid "f94cfa83-9e28-48f9-a49f-43d666eb92b1")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e14b643a-0e66-418e-9789-adf58720f13b")
+		(property "Reference" "R17"
+			(at 73.66 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.25W"
+			(at 73.66 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1206"
+			(at 73.66 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "475828b1-1fdb-47c1-ad00-eb0e2c85b1e6")
+		)
+		(pin "2"
+			(uuid "79cf1fa5-0540-4644-9d1e-b2eba2be73ff")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 167.64 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4328b00-8cbe-4cda-ac12-a238717532b4")
+		(property "Reference" "RV15"
+			(at 104.14 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bddd1993-ba06-4343-955c-89237dcae14c")
+		)
+		(pin "2"
+			(uuid "bf5bbf37-6182-4ca8-9fee-fe00f9711107")
+		)
+		(pin "3"
+			(uuid "1dc10aa8-29ea-4b2d-abfa-c752e0fd6f12")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV15")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV8")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 119.38 52.07 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e579605b-aca1-414b-b0a1-5b4ded068bce")
+		(property "Reference" "RV2"
+			(at 119.38 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 119.38 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 119.38 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39b0c5f0-71bc-4831-8050-3aa7ce3dceab")
+		)
+		(pin "2"
+			(uuid "7a0ada00-d332-45e8-87a8-92c42b1ebd02")
+		)
+		(pin "3"
+			(uuid "cbf2ee18-1b3d-42ee-b4c5-089e173aaa34")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 158.75 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e79cea4a-8e44-45eb-b564-d3b23f253c12")
+		(property "Reference" "#PWR01"
+			(at 158.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 158.75 73.6021 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3adac8d7-8d0d-4f0b-9a53-f9c79ec77069")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eca009b7-2957-4281-bf4f-70b9d3503e3f")
+		(property "Reference" "R18"
+			(at 88.9 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb071a82-6bd3-4862-b625-5e59c9cc7261")
+		)
+		(pin "2"
+			(uuid "d6c5f28f-de0c-4ff0-8b29-ecf65888fd76")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed4d665e-a6ef-4a72-8a47-52cad7d6f83a")
+		(property "Reference" "R19"
+			(at 58.42 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40b1f725-0339-4fe2-8464-35d764be195a")
+		)
+		(pin "2"
+			(uuid "3643aabe-23a2-4071-80a0-615a21961433")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0a712a4-ee07-48b6-96ef-7443daf52a39")
+		(property "Reference" "R24"
+			(at 88.9 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1%"
+			(at 88.9 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "0805"
+			(at 88.9 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50d8bd75-64b2-4a6b-ba95-810c3d616f05")
+		)
+		(pin "2"
+			(uuid "c71050f6-76a3-4555-bb9a-2114eae1265a")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0cb76b3-a94f-4ff4-ae44-344d532d1c4a")
+		(property "Reference" "R4"
+			(at 58.42 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1% 0.5W"
+			(at 58.42 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 58.42 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pouzdro" "1210"
+			(at 58.42 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e56dc784-0d3f-422b-ac88-9324d997f05c")
+		)
+		(pin "2"
+			(uuid "5e7f372d-b527-4d05-986a-f0615f188820")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f48e2a59-e643-42f6-8124-9c893f0541fc")
+		(property "Reference" "H1"
+			(at 158.75 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 161.29 81.2221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 158.75 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8c14041-1087-4893-ac55-38e8a0f30d31")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5"
+					(reference "H1")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "H5")
+					(unit 1)
+				)
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/eda9b81e-e0d8-4ff9-a938-8e09bdbaf42b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 104.14 184.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc924924-73e6-4651-8f0c-9f539aad24a1")
+		(property "Reference" "RV17"
+			(at 104.14 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N"
+			(at 104.14 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 104.14 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8abdded2-0728-4af7-833e-3b56b2ce98ac")
+		)
+		(pin "2"
+			(uuid "07365efa-cb43-4179-9b69-6f7731da23f5")
+		)
+		(pin "3"
+			(uuid "3a801a2c-57ad-4062-97a5-c428afd26183")
+		)
+		(instances
+			(project "bottom board"
+				(path "/4b8883dd-5d70-41f7-ab17-c8aa67801416"
+					(reference "RV17")
+					(unit 1)
+				)
+			)
+			(project "OdporovaDekada"
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0"
+					(reference "RV9")
+					(unit 1)
+				)
+				(path "/a0b0d09b-c8ba-4c3f-8d98-ff50bb80f5c0/20d40ae2-f584-41ac-89fa-0772ad57b5ac"
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+			(project "ModulOdporoveDekady"
+				(path "/b5003fda-5950-4ef1-8b62-a3ba5c9177d5/cef93399-eaad-480d-9c1d-012a38298f49"
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "bottom board.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDsDh0bAEZjcShAtQ7GMQxkV7FVI1XWkr1kWYQs3IDkNqs6FgFgMcrdpHLved8MjDi7ZABf
+				AGcAoGbB/ix+mmXtIhF90rMI/+NxhP/jMXO1jZqeLIo43/HT0Fmt9udL0+SoeRo6zbanzPRP/gUA
+				ICAYkd7TqlWbcTKzdM45yjrjF7Oj7jF81trt1tsoNtPspQIgIEhDJk4pkmaoEI2cMyr7o042qmN+
+				SgJ1t60Cdbuu4zhWuxUAj+KO7e52ikeZzfpP/uN3detu1w51yiRq9os+8q7Z0YzJP7t2zUIkPsf2
+				881v/3yXKAlnsbN+1EUiTN4uUb+3Vg3BNfgF2qi1VqzFdtI8M9diKI5J9ilGWzE/8ajjunobiiKc
+				VBh2825Wmv3un8vXiG3Qh14Nsn5RlHGns4/EENQQnjIviZJb7s060hVcUSqQi8Wh4TQUDEhERbj3
+				s33B8sRj31qrxt3uuIS/GAGBwSORuMF9CM5yX8I9YvhZHKEi9DzP6zhvwygaHEfmcoFwEI3Dwmkd
+				wiHBQDCG27fTvvskqcQ5BDWO+279ENVWy2n30y74LRih5tkHo97uNO6ixi6dlKYQz/sX7C8bx4pd
+				Qm/Dn7piE3C7AYCuoNFIZ5ySkZEkSSEdYESE5Kq4AZalqMMCACsu7ypspR7Uw6rgYaqIrAkX0PmN
+				TGW9kmaMdrKLtOlFwIdxQiMGl4vsQ0ZEEN+NwMH9UwvAB0DyAs+Bvl8TuwvlPbEP/jJexyCQ1/k+
+				ratHCM4KMzRL6EEJNToePlAR0G0gp+iBSMaL3c9QjNDItPasomHgOBi4LxmpLVQ1yQQldA9AIQAW
+				OiUYaHT3Iz0CHmzX2RvhgTQyohJiOpjXWljQPiw8hStBn0rmSaUon7ySULKY4GjY2lhHd4JnR33A
+				oFV3lAH9EwJBAZxCGVuAeLtQ2DE5HMIZGyn+2H7lClutOlHLPvnbv819XMt61l3GQ0jjOh8+VcOY
+				RbIDYQkHT29wOwjrMEgnJv4oKUvTk9teuY92DaBvWvUwQZTukP5Hq5J35/hgb57lXBYTbAKzGuvO
+				fOkf0sZ6bhqGQGVSTUwH8orSFWIYmOt6cs1NlPqtx41XkgJ5I4rD0WZQ2Qeld5K3QloudiQQZ3PG
+				3kfX1mqalq3Wg47lTdRGfjuQjsGrAg==|
+			)
+			(checksum "0A6E502E999D1EC66AB88F70146514A9")
+		)
+		(file
+			(name "title block.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDsDh0bAEZjcShAtQ7GMQxkV7FVI1XWkr1kWYQs3IDkNqs6FgFgMcrdpHLved8MjDi7ZABf
+				AGcAoGbB/ix+mmXtIhF90rMI/+NxhP/jMXO1jZqeLIo43/HT0Fmt9udL0+SoeRo6zbanzPRP/gUA
+				ICAYkd7TqlWbcTKzdM45yjrjF7Oj7jF81trt1tsoNtPspQIgIEhDJk4pkmaoEI2cMyr7o042qmN+
+				SgJ1t60Cdbuu4zhWuxUAj+KO7e52ikeZzfpP/uN3detu1w51yiRq9os+8q7Z0YzJP7t2zUIkPsf2
+				881v/3yXKAlnsbN+1EUiTN4uUb+3Vg3BNfgF2qi1VqzFdtI8M9diKI5J9ilGWzE/8ajjunobiiKc
+				VBh2825Wmv3un8vXiG3Qh14Nsn5RlHGns4/EENQQnjIviZJb7s060hVcUSqQi8Wh4TQUDEhERbj3
+				s33B8sRj31qrxt3uuIS/GAGBwSORuMF9CM5yX8I9YvhZHKEi9DzP6zhvwygaHEfmcoFwEI3Dwmkd
+				wiHBQDCG27fTvvskqcQ5BDWO+279ENVWy2n30y74LRih5tkHo97uNO6ixi6dlKYQz/sX7C8bx4pd
+				Qm/Dn7piE3C7AYCuoNFIZ5ySkZEkSSEdYESE5Kq4AZalqMMCACsu7ypspR7Uw6rgYaqIrAkX0PmN
+				TGW9kmaMdrKLtOlFwIdxQiMGl4vsQ0ZEEN+NwMH9UwvAB0DyAs+Bvl8TuwvlPbEP/jJexyCQ1/k+
+				ratHCM4KMzRL6EEJNToePlAR0G0gp+iBSMaL3c9QjNDItPasomHgOBi4LxmpLVQ1yQQldA9AIQAW
+				OiUYaHT3Iz0CHmzX2RvhgTQyohJiOpjXWljQPiw8hStBn0rmSaUon7ySULKY4GjY2lhHd4JnR33A
+				oFV3lAH9EwJBAZxCGVuAeLtQ2DE5HMIZGyn+2H7lClutOlHLPvnbv819XMt61l3GQ0jjOh8+VcOY
+				RbIDYQkHT29wOwjrMEgnJv4oKUvTk9teuY92DaBvWvUwQZTukP5Hq5J35/hgb57lXBYTbAKzGuvO
+				fOkf0sZ6bhqGQGVSTUwH8orSFWIYmOt6cs1NlPqtx41XkgJ5I4rD0WZQ2Qeld5K3QloudiQQZ3PG
+				3kfX1mqalq3Wg47lTdRGfjuQjsGrAg==|
+			)
+			(checksum "0A6E502E999D1EC66AB88F70146514A9")
+		)
+	)
+)
